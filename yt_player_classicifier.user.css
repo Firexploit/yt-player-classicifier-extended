@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           YT Player Classicifier
 @namespace      https://github.com/YukisCoffee
-@version        1.3.2
+@version        9.3.2
 @description    Return the old scales of the YouTube player.
 @author         Taniko Yamamoto <kirasicecreamm@gmail.com>
 @author         Aubrey Pankow <aubyomori@gmail.com>
@@ -45,6 +45,83 @@
         border-radius: 0;
     }
     
+    // Remove new rounded corners
+    .ytp-ce-medium-round .ytp-ce-expanding-overlay-background {
+        border-radius: 2px;
+    }
+    
+    .ytp-ce-video.ytp-ce-medium-round, .ytp-ce-video.ytp-ce-large-round {
+        -webkit-border-radius: unset;
+        border-radius: unset;
+    }
+    
+    .ytp-ce-video.ytp-ce-large-round, .ytp-ce-playlist.ytp-ce-large-round {
+        -webkit-border-radius: unset;
+        border-radius: unset;
+    }
+    
+    .ytp-tooltip.ytp-rounded-tooltip:not(.ytp-preview) .ytp-tooltip-text {
+        -webkit-border-radius: 2px;
+        border-radius: 2px;
+    }
+    
+    .ytp-tooltip.ytp-rounded-tooltip.ytp-text-detail.ytp-preview {
+        -webkit-border-radius: 2px;
+        border-radius: 2px;
+    }
+    
+    .ytp-tooltip.ytp-rounded-tooltip.ytp-text-detail.ytp-preview .ytp-tooltip-bg {
+        border-radius: unset;
+    }
+    
+    .ytp-offline-slate-bar {
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        border-radius: 2px;
+    }
+    
+    .iv-card {
+        -webkit-border-radius: unset;
+        border-radius: unset;
+    }
+    
+    .ytp-videowall-still-round-large .ytp-videowall-still-image {
+        border-radius: unset;
+    }
+    
+    //Fix premiere
+    
+    .ytp-button.ytp-live-badge{
+        width:40px;
+    }
+    
+    //Fix Subscribe button
+    
+    .ytp-sb-subscribe, a.ytp-sb-subscribe {
+    background-color: #f00;
+    color: #ffffff;
+    border-radius: 2px;
+    }
+    
+    .ytp-big-mode .ytp-sb-subscribe, .ytp-big-mode .ytp-sb-unsubscribe {
+        border-radius: 3px;
+    }
+    
+    .ytp-shorts-mode .ytp-sb-subscribe, .ytp-shorts-mode a.ytp-sb-subscribe {
+        background-color: #f00;
+    }
+    
+    .iv-branding .branding-context-container-inner {
+        border-radius: 2px;        
+    }
+    
+    //Precise seeking killer
+    
+    .ytp-fine-scrubbing-container {display:none}
+    .ytp-progress-bar, .ytp-heat-map-container, .ytp-fine-scrubbing-container {transform:translateY(0)!important}
+    .ytp-chrome-bottom {height:auto!important}
+    .ytp-tooltip-edu {display:none!important}
+
     // Apply styles across the entire ytp namespace
     // (Also apply over the ytp-embed class in order to
     // not affect users using that)
