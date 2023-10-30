@@ -60,6 +60,10 @@
         border-radius: unset;
     }
     
+    .ytp-ce-video.ytp-ce-large-round, .ytp-ce-playlist.ytp-ce-large-round, .ytp-ce-large-round .ytp-ce-expanding-overlay-background {
+        border-radius: 2px;
+    }
+    
     .ytp-tooltip.ytp-rounded-tooltip:not(.ytp-preview) .ytp-tooltip-text {
         -webkit-border-radius: 2px;
         border-radius: 2px;
