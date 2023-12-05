@@ -119,6 +119,16 @@
         border-radius: 2px;        
     }
     
+    //
+    
+    .ytp-tooltip {
+        top: 218px;
+    }
+    
+    .ytp-tooltip.ytp-preview:not(.ytp-text-detail), .ytp-embed:not(.ytp-big-mode) .ytp-tooltip.ytp-preview:not(.ytp-text-detail), .ytp-small-mode .ytp-tooltip.ytp-preview:not(.ytp-text-detail) {
+        transform: unset;
+    }
+    
     //Precise seeking killer
     
     .ytp-fine-scrubbing-container {display:none}
