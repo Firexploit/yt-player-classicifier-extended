@@ -111,6 +111,10 @@
         border-radius: 3px;
     }
     
+    .ytp-sb-subscribe, .ytp-sb-unsubscribe {
+        border-radius: 2px;        
+    }
+    
     .ytp-shorts-mode .ytp-sb-subscribe, .ytp-shorts-mode a.ytp-sb-subscribe {
         background-color: #f00;
     }
