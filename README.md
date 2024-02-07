@@ -1,4 +1,4 @@
-# YouTube Player Classicifier
+# YouTube Player Classicifier Extended
 
 This repository contains two files that help make the YouTube player look like 2017 again! Updated to fix the rounded corners, subscribe button, etc.
 
