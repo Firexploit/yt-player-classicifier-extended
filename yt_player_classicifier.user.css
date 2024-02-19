@@ -123,6 +123,13 @@
         border-radius: 2px;        
     }
     
+    //Fix unsubscribe
+    
+    .ytp-sb-unsubscribe {
+    background-color: #eee;
+    color: rgba(17,17,17,.6);
+    }
+    
     //
     
     .ytp-tooltip {
