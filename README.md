@@ -1,6 +1,7 @@
 # YouTube Player Classicifier Extended
 
-This repository contains two files that help make the YouTube player look like 2017 again! 
+This repository contains two files that help make the YouTube player look like 2017 again!
+
 It contains additional fixes since the original yt-player-classicifier doesn't get updated anymore
 
 # Installation
