@@ -105,6 +105,7 @@
     background-color: #f00;
     color: #ffffff;
     border-radius: 2px;
+    text-transform: uppercase
     }
     
     .ytp-big-mode .ytp-sb-subscribe, .ytp-big-mode .ytp-sb-unsubscribe {
@@ -128,6 +129,7 @@
     .ytp-sb-unsubscribe {
     background-color: #eee;
     color: rgba(17,17,17,.6);
+    text-transform: uppercase
     }
     
     //
