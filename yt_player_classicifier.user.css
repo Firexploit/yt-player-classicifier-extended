@@ -132,12 +132,23 @@
     text-transform: uppercase
     }
     
-    //
+    //Fix tooltip
     
     .ytp-tooltip {
         top: 218px;
     }
     
+    .ytp-tooltip.ytp-preview .ytp-tooltip-bg {
+        width: 150px !important;
+        height: 90px !important;
+    }
+    .ytp-tooltip.ytp-preview:not(.ytp-text-detail), .ytp-tooltip-bg {
+        border-radius: unset;
+    }    
+    .ytp-progress-bar-snap .ytp-tooltip-bg {
+        outline: unset;
+        outline-offset: unset;
+    }
     .ytp-tooltip.ytp-preview:not(.ytp-text-detail), .ytp-embed:not(.ytp-big-mode) .ytp-tooltip.ytp-preview:not(.ytp-text-detail), .ytp-small-mode .ytp-tooltip.ytp-preview:not(.ytp-text-detail) {
         transform: unset;
     }
