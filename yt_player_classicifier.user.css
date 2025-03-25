@@ -142,21 +142,61 @@
         width: 150px !important;
         height: 90px !important;
     }
+    .ytp-tooltip.ytp-text-detail.ytp-preview {
+        width: 350px;
+        height: 90px;
+        border-radius: 2px;
+    }
+    .ytp-tooltip.ytp-text-detail.ytp-preview .ytp-tooltip-text {
+        margin: 0px 9px 0px 0px;
+        width: 250px !important;
+        left: 160px;
+        position: relative;
+        display: block !important;
+    }
+    .ytp-tooltip.ytp-text-detail .ytp-tooltip-title {
+        margin: 0px 9px 0px 0px;
+        width: 150px !important;
+        left: 160px;
+        position: relative;
+    }
+    .ytp-tooltip.ytp-text-detail.ytp-preview .ytp-tooltip-bg {
+        border-radius: 2px;
+        top: -38px;
+    }
     .ytp-tooltip.ytp-preview:not(.ytp-text-detail), .ytp-tooltip-bg {
-        border-radius: unset;
-    }    
+        border-radius: 2px;
+    }
+    .ytp-preview:not(.ytp-text-detail) .ytp-tooltip-bottom-text {
+        top: unset;
+        position: relative !important;
+        background: block;
+        background-color: rgba(28,28,28,.9);
+    }
     .ytp-progress-bar-snap .ytp-tooltip-bg {
         outline: unset;
         outline-offset: unset;
     }
     .ytp-tooltip.ytp-preview:not(.ytp-text-detail), .ytp-embed:not(.ytp-big-mode) .ytp-tooltip.ytp-preview:not(.ytp-text-detail), .ytp-small-mode .ytp-tooltip.ytp-preview:not(.ytp-text-detail) {
-        transform: unset;
+        transform: unset !important;
+    }
+    .ytp-tooltip.ytp-preview:not(.ytp-text-detail) {
+        background-color: rgba(28,28,28,.9);
+    }
+    
+    .ytp-tooltip:not(.ytp-preview) .ytp-tooltip-bottom-text {
+        border-radius: 2px;
     }
     
     //New
     
     .ytp-promotooltip-container {
         border-radius: 2px;
+    }
+    
+    //Fix progressbar
+    .ytp-play-progress {
+        background: #f03;
     }
     
     //Precise seeking killer
