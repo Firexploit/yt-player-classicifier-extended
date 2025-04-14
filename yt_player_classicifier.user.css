@@ -149,10 +149,11 @@
     }
     .ytp-tooltip.ytp-text-detail.ytp-preview .ytp-tooltip-text {
         margin: 0px 9px 0px 0px;
-        width: 250px !important;
-        left: 160px;
-        position: relative;
-        display: block !important;
+        width: 180px;
+        left: 150px;
+        position: absolute;
+        display: block;
+        white-space: unset;
     }
     .ytp-tooltip.ytp-text-detail .ytp-tooltip-title {
         margin: 0px 9px 0px 0px;
@@ -162,7 +163,7 @@
     }
     .ytp-tooltip.ytp-text-detail.ytp-preview .ytp-tooltip-bg {
         border-radius: 2px;
-        top: -38px;
+        top: -8px;
     }
     .ytp-tooltip.ytp-preview:not(.ytp-text-detail), .ytp-tooltip-bg {
         border-radius: 2px;
