@@ -200,6 +200,11 @@
         background: #f03;
     }
     
+    //Pai content overlay link fix
+    .ytp-exp-ppp-update .ytp-paid-content-overlay-link {
+        border-radius: 2px;
+    }
+    
     //Precise seeking killer
     
     .ytp-fine-scrubbing-container {display:none}
